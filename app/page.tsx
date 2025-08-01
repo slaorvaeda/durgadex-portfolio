@@ -1,4 +1,3 @@
-import Head from "next/head"
 import Navigation from "@/components/Navigation"
 import Hero from "@/components/Hero"
 import MainContent from "@/components/MainContent"
@@ -17,13 +16,6 @@ export default function Portfolio() {
 
   return (
     <div className="bg-black text-white overflow-x-hidden">
-      <Head>
-        <title>DURGADEX – Creative Developer</title>
-        <meta
-          name="description"
-          content="Explore my portfolio with featured projects including apps, platforms, and creative work."
-        />
-      </Head>
       <Navigation />
       <Hero />
       <MainContent />
